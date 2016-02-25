@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="11021454-e77e-48bc-8884-ef890dd60233" name="UMLClassDiagram1" linkedPackageId="9c69b401-6395-446d-a8f7-43b1445dc782" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9a15aaea-c552-4c24-a611-a83bdf05a142" name="Fan" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="302a2b5b-ebc7-4d46-8563-4e4456059572" />
+        <ownedAttributesInternal>
+          <property Id="2bbc2a2a-da1a-4dda-8371-46b1040041cc" name="int Speed" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c8acce25-9531-489c-94a4-fc0b47507659" />
+          </property>
+          <property Id="68f634ef-9bc4-4679-884f-f6ab208aef63" name="double Radius" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2bc7e1e5-d3a1-435e-ab61-6009e7124ef5" />
+          </property>
+          <property Id="2968f5b1-e802-42c4-bfd8-564f499efd9f" name="bool On" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a85ce68e-b518-4af9-be16-c67e79541a05" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fe069ca1-aaad-4ccb-8fc4-714bd0ae283a" name="Get_Speed" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e4c0b77-127d-4291-ae41-0180cb9834bd" />
+          </operation>
+          <operation Id="9a3b4492-a31f-4efd-a476-d65d75ab5886" name="Get_Radius" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5180c95e-e5e5-4ca7-a862-bdf07275c9b7" />
+          </operation>
+          <operation Id="d62b987a-02e8-4061-b630-c3b23ed77578" name="Get_Power" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2eae514b-c8ca-40ef-ad32-6b5221545d7a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="edc8cd2d-fa47-4be4-a502-f6a0a9ddf460" name="Quadratic Formula" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8519a1ea-6fc3-4d0b-a9aa-d6ca1cc93a3f" />
+        <ownedAttributesInternal>
+          <property Id="84de2753-4bb2-41cd-85a1-974cc5b0782e" name="Discriminant" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d2144347-8171-490d-97d8-6c3c96ab5d66" />
+          </property>
+          <property Id="03bfa233-f0d7-4886-8398-578f5421e173" name="Roots" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4dd5402b-d7c5-4090-b07d-62177b34ca94" />
+          </property>
+          <property Id="794e3917-6029-4946-a63b-7a231ddfa75b" name="int a" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fc48e608-4bc1-4dd7-b090-a7b3284caeb9" />
+          </property>
+          <property Id="9b949ba6-60b5-4681-8e79-37a5febfbb0a" name="int b" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c7c74ff8-5804-4a9d-8542-14f9d97325ef" />
+          </property>
+          <property Id="d005344e-72c9-420d-ad8f-00146cf11485" name="int c" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3b26e921-5d74-4a13-83d2-4e0800dd49c7" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="7205e175-4755-4e30-8724-ebc3c1a6b24b" name="Get_Discriminant" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b12be352-5a0b-40d6-b9dd-fc1a29837a76" />
+          </operation>
+          <operation Id="cfc9b311-91e8-4506-99e2-99ae83e06368" name="Get_Root1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5d38fdbd-0b16-4b3d-ae58-39240ee3716a" />
+          </operation>
+          <operation Id="b5b297d7-4dc0-4dc5-b68c-4aaaa4770622" name="Get_Root2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d05fa8a5-de34-492a-85a0-a6be5cbbace4" />
+          </operation>
+          <operation Id="fc59bb57-338c-4253-a053-3b9707f5ffa7" name="Input_a, b, c" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e67fa3ab-fc60-4633-9477-b980090bc46c" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b2abea6f-7e19-4a04-80d4-5be62ffee1f5" name="Even Number" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="497641a3-506d-42a8-8138-01ee8394137d" />
+        <ownedAttributesInternal>
+          <property Id="3d2973be-3ae3-462b-93c2-aa84fe7e3f55" name="int Value" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b6e76d77-7fe8-4e70-806c-d53b28502727" />
+          </property>
+          <property Id="1f7af589-c103-4d82-9d95-50788332d4f4" name="Next_Number" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0ff52cc0-7461-4e08-85c6-e1af6ca58d01" />
+          </property>
+          <property Id="79db595c-c40e-45e9-b8aa-790ac998ff37" name="Previous_Number" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5e7d1807-78b3-4c05-8b03-6345f49f1373" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a94c95fd-b0bf-4b8a-9fae-fb68df3c10e7" name="Get_Next" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1aa94b07-dd45-4621-bd0e-a63151e47eb8" />
+          </operation>
+          <operation Id="78fac878-afdb-4cbf-b5fd-e6f4eac39231" name="Get_Previous" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="11991c4e-4015-4641-a16a-52771ff7df14" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="9c69b401-6395-446d-a8f7-43b1445dc782" name="ModelingProject1">
+    <elementDefinition Id="ec82ed0b-d098-4f59-b709-006ecec318bf" />
+    <profileInstances>
+      <packageHasProfileInstances Id="559cbde6-5192-41ba-aab0-8ae013b1b4b4">
+        <profileInstance Id="de951887-c9fc-4331-af4e-4c419cc13b65" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="dbab2d21-3918-4d6f-94a9-e69984cfc660">
+        <profileInstance Id="fc6b8417-d5b6-4fed-a5f8-0b21341bd860" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

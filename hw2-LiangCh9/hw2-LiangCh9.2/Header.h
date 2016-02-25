@@ -46,20 +46,20 @@ public:
 	{
 		a, b, c = 1;
 	}
-	int GetA() { return a; }
+	int GetA() { return a; } // Assigning the Assessors || Get functions
 	int GetB() { return b; }
 	int GetC() { return c; }
 
-	void SetA(int x) { a = x; }
+	void SetA(int x) { a = x; } // Constructor arguments
 	void SetB(int x) { b = x; }
 	void SetC(int x) { c = x; }
 
-	int getDiscriminant()
+	int getDiscriminant() // Discriminant: what is under the square root sign
 	{
 		int x = pow(b, 2) - 4 * a * c;
 		return x;
 	}
-	double getRoot1() 
+	double getRoot1() // Calculates the function of the Root 1
 	{
 		if (getDiscriminant() < 0)
 			return 0;
@@ -69,9 +69,9 @@ public:
 			return r1;
 		}
 	}
-	double getRoot2()
+	double getRoot2() // Calculates the other function of the Root 2
 	{
-		if (getDiscriminant() < 0)
+		if (getDiscriminant() < 0) // If less than 0, display only one root.
 			return 0;
 		else
 		{
@@ -85,10 +85,10 @@ class EvenNumber {
 private:
 	int value;
 public:
-	EvenNumber() { value = 0; }
+	EvenNumber() { value = 0; } // Assuming that User knows to input an even number
 	EvenNumber(int x) { value = x; }
 
-	int getValue() { return value; }
-	EvenNumber getNext() { return EvenNumber(value + 2); }
-	EvenNumber getPrev() { return EvenNumber(value - 2); }
+	int getVal() { return value; } // Value = the number that was entered.
+	EvenNumber getNext() { return EvenNumber(value + 2); } // Creates the next even number in the series
+	EvenNumber getPrev() { return EvenNumber(value - 2); } // Creates the previous even number in the series
 };

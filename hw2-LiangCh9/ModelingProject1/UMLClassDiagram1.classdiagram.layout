@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="11021454-e77e-48bc-8884-ef890dd60233" />
+  <nestedChildShapes>
+    <classShape Id="3723a0d1-9ad3-4773-b3e8-3e540e556c90" absoluteBounds="0.5, 0.75, 1.625, 1.8632812052965164" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="9a15aaea-c552-4c24-a611-a83bdf05a142" LastKnownName="Fan" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="fcb918be-c7c4-4fc2-b725-491b1fbb6271" absoluteBounds="0.515, 1.1400000000000001, 1.5950000000000002, 0.68164060264825832" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="56621fd3-6846-49d4-95cd-497fed144d8f" absoluteBounds="0.515, 1.8316406026482583, 1.5950000000000002, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ec580d6-97df-4d36-9245-22042b3cf2a4" absoluteBounds="4.375, 1.5, 2, 2.3437499403953557" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="edc8cd2d-fa47-4be4-a502-f6a0a9ddf460" LastKnownName="Quadratic Formula" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="931718f4-973d-49e6-9b90-540ba8adf22c" absoluteBounds="4.3900000000000006, 1.8900000000000001, 1.9700000000000002, 1.0019530927141507" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="b8802b62-f088-4d90-aa9a-d92c651e6938" absoluteBounds="4.3900000000000006, 2.9019530927141508, 1.9700000000000002, 0.84179684768120444" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d6b43e44-d647-49ca-9186-0de770179646" absoluteBounds="8.375, 3.375, 1.5, 1.7031249602635699" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="b2abea6f-7e19-4a04-80d4-5be62ffee1f5" LastKnownName="Even Number" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="25a4e7d4-9a16-4295-8b85-0fb9cd141dd9" absoluteBounds="8.39, 3.765, 1.4700000000000002, 0.68164060264825821" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="033adc4e-debf-4204-b92d-51b06629fcba" absoluteBounds="8.39, 4.4566406026482586, 1.4700000000000002, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
