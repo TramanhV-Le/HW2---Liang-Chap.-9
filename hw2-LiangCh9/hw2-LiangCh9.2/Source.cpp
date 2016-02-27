@@ -25,7 +25,7 @@ int main()
 	QuadraticEquation QE1;
 	int a, b, c;
 	cout << "Enter numbers for a, b, and , c: "; // Proctors user for the numbers
-	cin >> a, b, c;
+	cin >> a, b, c;																				/*  ---Joseph---  This doesn't work. It breaks the program (-1) */
 	QE1.SetA(a); // Calls the assigned variables in the Private class
 	QE1.SetB(b);
 	QE1.SetC(c);

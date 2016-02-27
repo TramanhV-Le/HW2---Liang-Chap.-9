@@ -1,3 +1,5 @@
+/*  ---Joseph--- Remember to include header definition guards. */
+
 #pragma once
 #include <iostream>
 #include <string>
